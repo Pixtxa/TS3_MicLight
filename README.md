@@ -9,7 +9,7 @@ You can define colors to show the state of your microphone (sending/muted/idle)
 Changed Version of TS3_MicLight, uses the LED-Stripe-Channels for the events
 Color | Meaning
  --- | ---
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+) RED    | mic and/or speakers are muted
+RED    | mic and/or speakers are muted
 ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) GREEN  | you are speaking
 ![#0000ff](https://placehold.it/15/0000ff/000000?text=+) BLUE   | someone else is speaking
 ![#fffacd](https://placehold.it/15/fffacd/000000?text=+) WHITE  | nobody is speaking and nothing is muted
