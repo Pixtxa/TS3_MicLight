@@ -6,7 +6,7 @@ Based on https://github.com/pathmann/pyTSon_repository/blob/master/eventlog.py
 You can define colors to show the state of your microphone (sending/muted/idle)
 
 ## TS3_StatusLight
-Changed Version of TS3_MicLight, uses The LED-Stripe-Channels for the Events: <br />
+Changed Version of TS3_MicLight, uses the LED-Stripe-Channels for the events: <br />
 RED    = mic and/or speakers are muted <br />
 GREEN  = you are speaking <br />
 BLUE   = someone else is speaking <br />
