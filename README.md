@@ -15,7 +15,7 @@ Color | Meaning
 ![#0000ff](https://placehold.it/15/0000ff/000000?text=+) BLUE   | Someone else is speaking
 ![#fffacd](https://placehold.it/15/fffacd/000000?text=+) WHITE  | Nobody is speaking and nothing is muted
 
-So, tere are also possible mixed colors
+So, there are also possible mixed colors
 
 Color | Meaning
  --- | ---
