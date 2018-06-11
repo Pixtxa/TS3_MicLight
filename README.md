@@ -1,6 +1,6 @@
 # TS3_StripeControl
-Use a cheap MagigHome WiFi-RGBW-stripe-controller and the pyTSon plugin for TeamSpeak3 to monitor the audio-status of your microphone or of your current channel. <br />
-Based on https://github.com/pathmann/pyTSon_repository/blob/master/eventlog.py
+Use a cheap MagigHome WiFi-RGBW-stripe-controller and the [pyTSon plugin for TeamSpeak3](https://www.myteamspeak.com/addons/86d2c267-1b43-4a4b-8cfb-06c2d8208bdc) to monitor the audio-status of your microphone or of your current channel. <br />
+Based on [eventlog.py of pyTSon_repository](https://github.com/pathmann/pyTSon_repository/blob/master/eventlog.py)
 
 ## TS3_MicLight
 You can define colors to show the state of your microphone. Default:
