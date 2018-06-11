@@ -9,7 +9,7 @@ Color | Meaning
  --- | ...
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) RED    | Mic is muted
 ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) GREEN  | You are speaking
-![#fffacd](https://placehold.it/15/fffacd/000000?text=+) WHITE  | You are not speaking and your mic isn't muted
+![#fffacd](https://placehold.it/15/fffacd/000000?text=+) WHITE  | You are not speaking and your mic isnt muted
 
 
 ## TS3_StatusLight
