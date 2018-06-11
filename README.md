@@ -11,6 +11,7 @@ Color | Meaning
 ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) GREEN  | You are speaking
 ![#fffacd](https://placehold.it/15/fffacd/000000?text=+) WHITE  | You are not speaking and your mic isn't muted
 
+
 ## TS3_StatusLight
 Changed Version of TS3_MicLight, uses the LED-Stripe-Channels for the events
 
