@@ -7,6 +7,7 @@ You can define colors to show the state of your microphone (sending/muted/idle)
 
 ## TS3_StatusLight
 Changed Version of TS3_MicLight, uses the LED-Stripe-Channels for the events
+
 Color | Meaning
  --- | ---
 RED    | mic and/or speakers are muted
