@@ -10,6 +10,7 @@ Changed Version of TS3_MicLight, uses the LED-Stripe-Channels for the events
 Color | Meaning
  --- | ---
 RED    | mic and/or speakers are muted
+
 ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) GREEN  | you are speaking
 ![#0000ff](https://placehold.it/15/0000ff/000000?text=+) BLUE   | someone else is speaking
 ![#fffacd](https://placehold.it/15/fffacd/000000?text=+) WHITE  | nobody is speaking and nothing is muted
