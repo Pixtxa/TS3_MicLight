@@ -73,6 +73,10 @@ class eventlog(ts3plugin):
                 speaking -=1                                                                  #one person less is speaking
                 if speaking < 0:                                                           #if negative amount of people are speaking (usually if Script was started while someone was speaking)
                     speaking = 0                                                              #reset counter, because it makes no sense
+        if speaking > 0:                                                                  #if someone is speaking, that is not you
+            b = 255                                                                         #set blue channel on
+        else:                                                                             #if the others aren't speaking
+            b = 0                                                                           #set blue channel on
         if name == "onClientSelfVariableUpdateEvent" and args[1] == 4:                    #Track if you are speaking
             changed = True                                                                  #Send data to the controller at end of function
             if args[3] == "1":                                                              #If you started speaking
@@ -81,10 +85,6 @@ class eventlog(ts3plugin):
             else:                                                                          #If you stopped speaking
                 g = 0                                                                         #Set green channel off
                 speaking +=1                                                                  #add the removed you that was speaking in your channel
-        if speaking > 0:                                                                  #if someone is speaking, that is not you
-            b = 255                                                                         #set blue channel on
-        else:                                                                             #if the others aren't speaking
-            b = 0                                                                           #set blue channel on
         if name == "onClientSelfVariableUpdateEvent" and (args[1] == 5 or args[1] == 6):  #Track if you muted your mic or speakers
             changed = True                                                                  #Send data to the controller at end of function                
             if args[3] == "1":                                                              #If you muted yourself
