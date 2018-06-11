@@ -18,7 +18,7 @@ Color | Meaning
 So, tere are also possible mixed colors
 
 Color | Meaning
- --- | --- | ---
+ --- | ---
 ![#00ffff](https://placehold.it/15/00ffff/000000?text=+) CYAN    | Someone else is speaking and you are speaking
 ![#ff00ff](https://placehold.it/15/ff00ff/000000?text=+) MAGENTA | Someone else is speaking and your mic is muted
 ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) YELLOW  | Something went really wrong, you can't speak in TeamSpeak while your mic is muted
