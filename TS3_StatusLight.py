@@ -276,9 +276,9 @@ class eventlog(ts3plugin):
                 r = 0                                                                         #Set red channel off
         if changed:                                                                       #If there may be a change
             if (r>0 or g>0 or b>0):                                                         #If one rgb-channel is on
-                w=0x60                                                                        #Set white channel off
+                w=0x00                                                                        #Set white channel off
             else:                                                                           #If all rgb-channels are off
-                w=0x90                                                                        #Set white channel on
+                w=0xFF                                                                        #Set white channel on
             Check = (0x4F+r+g+b+w)%256                                                      #calculate checksum
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                           #start connection
             s.settimeout(0.25)                                                              #use Timeout, so TeamSpeak wouldn't crash if stripe is offline
