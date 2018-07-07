@@ -5,6 +5,7 @@ global muted,speaking
 muted = 0
 speaking = 0
 #Original sample-code is followingfrom ts3plugin import ts3plugin
+from ts3plugin import ts3plugin
 
 import ts3defines, pytson, ts3client
 import os
@@ -236,7 +237,7 @@ class eventlog(ts3plugin):
     def menuCreated(self):
         pass #just here to not be triggered in __getattr__
 
-    def callback(self, name, *args):	
+    def callback(self, name, *args):
         #Pixtxa added the following code here:
         global r,g,b,w,speaking,muted                                                     #Variables from the last call are deleted, so I used global ones
         changed = False                                                                   #Init tracking variable
@@ -285,7 +286,7 @@ class eventlog(ts3plugin):
             s.connect((host, 5577)) #Verbindung zum Stripe                                  #connect to stripe
             s.send((chr(0x31)+chr(r)+chr(g)+chr(b)+chr(w)+chr(0x0f)+chr(0x0f)+chr(Check)).encode('mbcs')) #send data to stripe
             s.close() #Verbindungsende                                                      #end connection to stripe
-        #And here follows the remaining samplecode	
+        #And here follows the remaining samplecode
         if self.log:
             self.log.callback(name, *args)
 
