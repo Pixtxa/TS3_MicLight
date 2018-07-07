@@ -1,9 +1,8 @@
 #Pixtxa added the following Lines
-import socket
-host = "192.168.3.14" #IP of MagicHome LED-Stripe-Controller
-global muted,speaking
-muted = 0
-speaking = 0
+import socket                  #Needed to send data to over network
+host = "192.168.3.14"          #IP of MagicHome LED-Stripe-Controller
+global muted,speaking,r,g,b,w  #define global variables
+muted=speaking=r=g=b=w=0       #set all of them to 0
 #Original sample-code is followingfrom ts3plugin import ts3plugin
 from ts3plugin import ts3plugin
 
